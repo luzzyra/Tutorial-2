@@ -7,11 +7,14 @@ public class CameraScript : MonoBehaviour
 
     public GameObject target;
 
-
+    public AudioClip musicClipOne;
+    public AudioSource musicSource;
     // Start is called before the first frame update
     void Start()
     {
-
+        musicSource.clip = musicClipOne;
+        musicSource.Play();
+        musicSource.loop = true;
     }
 
     // Update is called once per frame
