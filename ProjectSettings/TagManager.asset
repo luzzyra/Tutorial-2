@@ -7,6 +7,7 @@ TagManager:
   - coin
   - Coin
   - Ground
+  - Enemy
   layers:
   - Default
   - TransparentFX
